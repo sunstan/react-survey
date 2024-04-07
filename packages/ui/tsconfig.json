@@ -1,0 +1,19 @@
+{
+  "extends": "@react-survey/typescript-config/base.json",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "lib": ["dom", "ES2020"],
+    "module": "ESNext",
+    "target": "es6",
+    "paths": {
+      "tailwind-config": ["./tailwind.config.ts"]
+    }
+  },
+  "include": [
+    "src/index.ts","src"],
+  "exclude": ["vite.config.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

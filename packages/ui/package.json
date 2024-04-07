@@ -1,0 +1,54 @@
+{
+  "name": "@react-survey/ui",
+  "main": "src/index.ts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@react-survey/eslint-config": "^0.0.1",
+    "@react-survey/tailwind-config": "^0.0.1",
+    "@react-survey/typescript-config": "^0.0.1",
+    "@types/node": "^20.11.22",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@types/redux-logger": "^3.0.13",
+    "@vitejs/plugin-react": "^4.2.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.35",
+    "tailwind-merge": "^2.2.1",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "dependencies": {
+    "@radix-ui/primitive": "^1.0.1",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-context": "^1.0.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@radix-ui/react-toggle": "^1.0.3",
+    "@radix-ui/react-use-callback-ref": "^1.0.1",
+    "@radix-ui/react-use-controllable-state": "^1.0.1",
+    "react-day-picker": "^8.10.0",
+    "react-textarea-autosize": "^8.5.3"
+  }
+}

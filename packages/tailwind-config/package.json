@@ -1,0 +1,10 @@
+{
+  "name": "@react-survey/tailwind-config",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
